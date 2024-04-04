@@ -3,7 +3,7 @@ import requests
 
 # Define the Roku devices with their IP addresses
 roku_devices = {
-    "Bedroom": "192.168.1.173",
+    "Bedroom": "192.168.1.ZZZ",
     "Children's Room": "192.168.1.XXX",  # Replace XXX with the actual IP address
     "Living Room": "192.168.1.YYY"  # Replace YYY with the actual IP address
 }
