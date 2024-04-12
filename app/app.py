@@ -1,11 +1,9 @@
 import streamlit as st
 import requests
 
-# Define the Roku devices with their IP addresses
 roku_devices = {
-    "Bedroom": "192.168.1.ZZZ",
-    "Children's Room": "192.168.1.XXX",  # Replace XXX with the actual IP address
-    "Living Room": "192.168.1.YYY"  # Replace YYY with the actual IP address
+    "Bedroom": "192.168.1.XXX",
+    "Kids room": "192.168.1.XXX"
 }
 
 def send_roku_command(roku_ip, command):
