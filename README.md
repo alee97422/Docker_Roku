@@ -45,18 +45,11 @@ docker build -t roku_remote .
 
    ```
 
-5. the output will be use either ctrl+mouseclick on the link or copy and paste to your browser 
+5. Open in browser
 
 ```
 
-╰─λ docker run -p 8501:8501 roku_remote:latest
-
-Collecting usage statistics. To deactivate, set browser.gatherUsageStats to False.
-
-
-You can now view your Streamlit app in your browser.
-
-URL: http://0.0.0.0:8501
+http://0.0.0.0:8501
 
 ```
 
